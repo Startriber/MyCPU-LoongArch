@@ -3,21 +3,26 @@
 #### 介绍
 基于vivado开发的龙芯指令集CPU
 
-#### 软件架构
-软件架构说明
+#### 更新历史
+2024-8-4：
+更新cpu-v0.1版本，该cpu目前完全支持龙芯cpu设计实验6~11的环境，同时支持部分性能运算（即乘除运算）。
+架构上为五阶段单发流水线cpu，不带分支预测与缓存模块。
+在性能上，最长同步时序延时为10.629ms，达到94MHz的水平。
 
+2024-8-7：
+更新cpu-v0.2版本，该cpu目前完全支持龙芯cpu设计实验6~11的环境，同时支持部分性能运算（即乘除运算）。
+架构上为五阶段单发流水线cpu，支持一级指令缓存。
+在性能上，最长同步时序延时为11.064ms，达到90MHz的水平。
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+2024-8-10：
+更新cpu-v0.3版本，该cpu目前完全支持龙芯cpu设计实验6~11的环境，同时支持部分性能运算（即乘除运算）。
+架构上为五阶段单发流水线cpu，支持一级指令缓存与简易分支预测。
+在性能上，最长同步时序延时为11.064ms，达到90MHz的水平。
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  使用verilog语言编辑器进行开发
+2.  使用vivado综合器进行同步、综合与烧写
 
 #### 参与贡献
 
@@ -25,13 +30,3 @@
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
